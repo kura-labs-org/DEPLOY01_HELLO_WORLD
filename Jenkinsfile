@@ -4,6 +4,7 @@ pipeline {
 		stage('Deployment') {
 			steps {
 				 echo 'Hello World'
+				 echo 'HELLO!'
 				}
 			}
 		}
