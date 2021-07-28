@@ -1,5 +1,12 @@
-pipeline{agent {label "Test"}
-stage ("hello"){echo "hello world"}
+pipeline {
+agent {label 'test'}
+stages {
+	stage('testBuild'){
+	steps
+	{
+	echo "Hello World"
+	}
+	}
 }
-
+}
 
