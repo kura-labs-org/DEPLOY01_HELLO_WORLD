@@ -1,5 +1,5 @@
 pipeline {
-agent {label 'main'};
+agent {label 'test'}
 stages {
 	stage('PreBuild'){
 	steps
