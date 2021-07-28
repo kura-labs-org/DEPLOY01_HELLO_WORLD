@@ -1,7 +1,7 @@
 pipeline {
-agent {label 'test'}
+agent {label 'main'}
 stages {
-	stage('testBuild'){
+	stage('PreBuild'){
 	steps
 	{
 	echo "Hello World"
