@@ -1,7 +1,7 @@
 pipeline{
   agent any{
     stage('print'){
-      echo 'Bonjour le monde'
+      echo 'Hola Mundo'
     }
   }
 }
