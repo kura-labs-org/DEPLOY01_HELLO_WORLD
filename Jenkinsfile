@@ -1,6 +1,7 @@
 pipeline {
   agent any
-   stages {
+
+  stages {
     stage ('Build') {
       steps {
         sh "echo Run a command"
@@ -16,7 +17,6 @@ pipeline {
       steps {
         sh "echo Run a command"
       }
-    
     }
   }
 }
