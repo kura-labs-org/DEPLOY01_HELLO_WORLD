@@ -13,7 +13,7 @@ pipeline {
       }
     
     }
-    stage ('test') {
+    stage ('deploy') {
       steps {
         sh "echo Run a command"
       }
