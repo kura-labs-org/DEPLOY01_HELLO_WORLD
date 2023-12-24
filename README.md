@@ -1,3 +1,3 @@
-# DEPLOY01_HELLO_WORLD
+## Deployment 01 - Hello World
 
-#See Deployment#1.pdf for instructions
+See **Deployment#1.pdf** file for instructions.
